@@ -1,0 +1,11 @@
+Package: com.ps.ytshortsprogress
+Name: YTShortsProgress
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Enable YouTube shorts progress/scrubber.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
