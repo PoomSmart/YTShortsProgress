@@ -6,10 +6,6 @@
 - (BOOL)shouldAlwaysEnablePlayerBar { return YES; }
 - (BOOL)shouldEnablePlayerBarOnlyOnPause { return NO; }
 
-// - (void)showShortsProgressBarIfNeeded:(double)duration {
-//     [self contentView].alwaysShowShortsProgressBar = YES;
-// }
-
 %end
 
 %hook YTReelPlayerViewControllerSub
@@ -23,6 +19,7 @@
 %hook YTColdConfig
 
 - (BOOL)iosEnableVideoPlayerScrubber { return YES; }
+- (BOOL)mobileShortsTabInlined { return YES; }
 
 %end
 
