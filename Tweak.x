@@ -1,5 +1,3 @@
-#import "../YouTubeHeader/YTReelPlayerViewController.h"
-
 %hook YTReelPlayerViewController
 
 - (BOOL)shouldEnablePlayerBar { return YES; }
