@@ -26,9 +26,3 @@
 - (BOOL)enablePlayerBarForVerticalVideoWhenControlsHiddenInFullscreen { return YES; }
 
 %end
-
-%hook YTInlinePlayerBarContainerView
-
-- (void)setUserInteractionEnabled:(BOOL)enabled { %orig(YES); }
-
-%end
