@@ -14,6 +14,13 @@
 
 %end
 
+%hook YTShortsPlayerViewController
+
+- (BOOL)shouldAlwaysEnablePlayerBar { return YES; }
+- (BOOL)shouldEnablePlayerBarOnlyOnPause { return NO; }
+
+%end
+
 %hook YTColdConfig
 
 - (BOOL)iosEnableVideoPlayerScrubber { return YES; }
